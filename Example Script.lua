@@ -20,7 +20,7 @@ local example_toggle = menu.toggle(my_root, "Draw a rectangle", "Draws a 2D rect
 end)
 
 -- Variable example_slider is optional
-local example_slider = menu.slider(my_root, "Set wanted level", "Change your wanted level from 0 - 5", 0, 5, 1, 0, function(value)
+local example_slider = menu.slider(my_root, "Set wanted level", "Change your wanted level from 0 - 5", 0, 5, 1, 0, true, function(value)
 	 PLAYER.SET_PLAYER_WANTED_LEVEL(PLAYER.PLAYER_ID(), value, 0)
      PLAYER.SET_PLAYER_WANTED_LEVEL_NOW(PLAYER.PLAYER_ID(), 0)
 end)
