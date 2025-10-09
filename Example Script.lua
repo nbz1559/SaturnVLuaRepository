@@ -55,7 +55,7 @@ local example_text_input = menu.text_input(my_root, "Enter something", "Shows yo
 end)
 
 -- Variable example_hyper_link is optional
-local example_hyper_link = menu.hyper_link(my_root, "Open youtube", "Opens youtube.com", "youtube.com")
+local example_hyper_link = menu.hyper_link(my_root, "Open youtube", "Opens youtube.com", "https://www.youtube.com/")
 
 -- Variable example_place_holder is optional
 local example_place_holder = menu.place_holder(my_root, " -- This is a place holder -- ")
