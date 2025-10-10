@@ -57,6 +57,9 @@ end)
 -- Variable example_hyper_link is optional
 local example_hyper_link = menu.hyper_link(my_root, "Open youtube", "Opens youtube.com", "https://www.youtube.com/")
 
+-- Variable example_read_only is optional
+local example_read_only = menu.read_only(my_root, "GTA 5", "Sets your clipboard text to GTA 5")
+
 -- Variable example_place_holder is optional
 local example_place_holder = menu.place_holder(my_root, " -- This is a place holder -- ")
 
