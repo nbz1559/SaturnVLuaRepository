@@ -10,7 +10,7 @@ menu.action(my_root, "Set your coords to 100, 100, 100", "Teleports you to 100, 
     ENTITY.SET_ENTITY_COORDS(PLAYER.PLAYER_PED_ID(), 100, 100, 100, false, false, false, false)
 end)
 
-local example_toggle = menu.toggle(my_root, "Draw a rectangle", "Draws a 2D rectangle on your screen", false, true, function(state)
+local example_toggle = menu.toggle(my_root, "Draw a rectangleeeee", "Draws a 2D rectangle on your screen", false, true, function(state)
     -- Set the last param to true for things that need to run every frame, because setting it to true runs the code in this toggle every frame
 	if state then
     	GRAPHICS.DRAW_RECT(0, 0, 0.5, 0.5, 255, 255, 255, 255) -- Last param is the alpha (AKA Transparency) setting it to 255 makes it completely opaque, setting it to 0 makes it completely transparent
